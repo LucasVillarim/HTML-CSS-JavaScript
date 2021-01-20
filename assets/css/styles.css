@@ -33,6 +33,7 @@ a, h1, p {
 }
 
 .header ul li {
+
   margin: 0 2em;
 }
 
@@ -106,7 +107,7 @@ a, h1, p {
   margin: 1em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   .second-section {
     flex-direction: column;
   }
