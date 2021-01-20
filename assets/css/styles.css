@@ -58,6 +58,12 @@ a, h1, h2, h3, h4, h5, h6, p {
   }
 }
 
+.title {
+  margin-top: 200px;
+  font-weight: lighter;
+  text-align: center;
+}
+
 /* First Section */
 
 .first-section {
@@ -66,7 +72,7 @@ a, h1, h2, h3, h4, h5, h6, p {
   align-items: center;
   justify-content: center;
   width: -webkit-fill-available;
-  margin-top: 200px;
+  margin-top: 50px;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1) inset;
 }
 
