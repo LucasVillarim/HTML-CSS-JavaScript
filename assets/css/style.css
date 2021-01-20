@@ -196,3 +196,36 @@ i{
     background-color: 	#005eff;
     color: #fff;
 }
+
+
+@media screen and ( max-width: 480px ) {
+    .content-flex {
+        display: flow-root;
+    }
+
+    .flex-wrap {
+        width: 100%;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media only screen and ( min-width: 600px ) {
+    .bg-color--blue {
+        background-color: #435740;
+        color: #ffff00;
+    }
+}
+
+@media only screen and ( min-width: 1382px ) {
+    .container {
+        max-width: 60%;
+    }
+
+    .bg-color--purple {
+        background-color: #ffa500;
+        color: black;
+    }
+}

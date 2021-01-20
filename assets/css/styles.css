@@ -36,10 +36,26 @@ a, h1, p {
   margin: 0 2em;
 }
 
+@media screen and (max-width: 768px) {
+  /* .header ul {
+    margin-right: 2em;
+  } */
+  .header ul {
+    margin-right: 0;
+  }
+
+  .header {
+    padding: 0 1em;
+  }
+}
+
+/* First Section */
 
 .first-section {
   display: flex;
+  align-items: center;
   justify-content: center;
+  width: -webkit-fill-available;
   margin-top: 200px;
 }
 
@@ -55,6 +71,20 @@ a, h1, p {
   margin: 2em;
 }
 
+@media only screen and (max-width: 768px) {
+  .first-section {
+    flex-direction: column;
+  }
+
+  .first-section p {
+    max-width: -webkit-fill-available;
+  }
+
+}
+
+/* end */
+
+/* SECOND SECTION */
 
 .second-section {
   display: flex;
@@ -66,7 +96,7 @@ a, h1, p {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
 }
 
 .second-section img {
@@ -75,6 +105,14 @@ a, h1, p {
   height: 300px;
   margin: 1em;
 }
+
+@media only screen and (max-width: 768px) {
+  .second-section {
+    flex-direction: column;
+  }
+}
+
+/* end */
 
 .third-section {
   margin-top: 200px;
@@ -85,18 +123,40 @@ a, h1, p {
   border-radius: 16px;
 }
 
+
+/* third section */
 .video {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 2em;
+  height: 500px;
+  /* padding: 2em; */
   background-image: url("https://www.sketch.ca/sketchPub/uploads/2019/03/radical-art-of-young-people.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover
 }
+
+.video iframe {
+  max-width: 1000px;
+}
+
+@media only screen and (max-width: 768px) {
+  .third-section {
+  }
+
+  .video {
+    height: 30vh;
+  }
+
+  .video iframe {
+    width: 90%;
+  }
+}
+
+/* end */
 
 .fourth-section {
   margin-top: 200px;
