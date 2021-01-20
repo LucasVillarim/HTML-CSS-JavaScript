@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
 
 html, body {
   scroll-behavior: smooth;
@@ -8,8 +8,9 @@ html, body {
   min-height: 100vh;
 }
 
-a, h1, p {
-  font-family: 'Cabin', sans-serif;
+a, h1, h2, h3, h4, h5, p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 .header {
@@ -120,7 +121,7 @@ a, h1, p {
 
 .fourth-section p {
   max-width: 40%;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .footer {
@@ -128,4 +129,8 @@ a, h1, p {
   height: 32px;
   width: -webkit-fill-available;
   margin-top: 200px;
+}
+
+.footer h5 {
+  font-weight: 400;
 }
