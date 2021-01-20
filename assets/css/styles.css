@@ -30,6 +30,10 @@ a, h1, h2, h3, h4, h5, h6, p {
   z-index: 20;
 }
 
+.header h1 {
+  font-weight: lighter;
+}
+
 .header ul {
   display: flex;
   list-style-type: none;
