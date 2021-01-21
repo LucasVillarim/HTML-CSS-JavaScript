@@ -62,8 +62,22 @@
           let estado = document.getElementById("estado").value;
           let municipio = document.getElementById("municipio").value;
 
-          app.innerHTML = `
+
+          let loadingPage = `
+            <div class="d-flex justify-content-center align-items-center w-100 vh-100 bg-primary">
+              <div class="d-flex justify-content-center">
+                <div class="spinner-border" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+              </div>
+            </div>  
+          `;
+
+          app.innerHTML = loadingPage;
+
+          let displayInfo = `
             <div class="container pt-5 mt-5 border border-dark">
+              <h1>Informações do Usuário</h1>
               <h5>Nome: ${nome}</h5>
               <h5>Idade: ${idade}</h5>
               <h5>Profissão: ${profissao}</h5>
@@ -71,7 +85,13 @@
               <h5>Estado: ${estado}</h5>
               <h5>Município: ${municipio}</h5>
             </div>
-          `
+          `;
+
+          setTimeout(() => {
+            app.innerHTML = displayInfo;
+          }, 3000);
+
+
         }
         
     </script>
