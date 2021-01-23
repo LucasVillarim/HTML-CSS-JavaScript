@@ -1,0 +1,13 @@
+.menu-nav {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+#app {
+  flex-wrap: wrap;
+}
+
+.card-unit {
+  max-height: 300px;
+}
