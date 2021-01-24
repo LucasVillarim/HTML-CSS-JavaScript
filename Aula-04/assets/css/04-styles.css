@@ -59,6 +59,7 @@
 .card {
   transition: 0.2s ease-in-out; 
   border: 1px solid #F25A24 !important;
+  border-radius: 16px !important;
 }
 
 .card:hover {
