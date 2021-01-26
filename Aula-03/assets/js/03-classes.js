@@ -113,5 +113,3 @@ class Phrase {
 
 const result = new Phrase('Lucas', '02/05/1994');
 result.generate();
-
-
